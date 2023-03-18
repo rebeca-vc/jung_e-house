@@ -1,0 +1,8 @@
+.jh-plant-list {
+	list-style-type: none;
+    justify-content: center;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	/* max-width: 800px; */
+}

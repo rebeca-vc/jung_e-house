@@ -1,13 +1,21 @@
 .jh-banner {
     display: flex;
-    align-items: center;
-    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;
 
     background-color: #239B56;
-    color: white;
-    text-align: right;
     padding: 32px;
     border-bottom: solid 3px black;
+}
+
+.jh-banner-logo {
+    color: white;
+    text-align: right;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90px;
 }
 
 .jh-title {
@@ -18,4 +26,14 @@
     height: 80px;
     width:  80px;
     padding: 10px;
+}
+
+.jh-subtitle {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+
+    display: flex;
+    padding-left: 100px;
+    align-items: flex-start;
 }

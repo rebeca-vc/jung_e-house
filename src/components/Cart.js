@@ -5,7 +5,8 @@ const Cart = () => {
     let ivy = 56.14;
     let bunch = 84.21;
     let total = monster + ivy + bunch;
-    return (<div class="jh-cart">
+    
+    return (<div className="jh-cart">
           <h2>Cart</h2>
           <ul>
             <li>Monstera: R$ {monster.toString().replace('.', ',')}</li>
