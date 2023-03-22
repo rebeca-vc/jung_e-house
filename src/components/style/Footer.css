@@ -1,0 +1,25 @@
+.jh-footer {
+	color: black;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	font-weight: 500;
+}
+
+.jh-footer-elem {
+    margin: 0px 0px 10px 0px;
+}
+
+.jh-sub {
+    width: 300px; 
+    margin: 0px 20px 0px 32px;
+}
+
+.jh-image{
+    height: 300px;
+    border-radius: 20px;
+    margin: 0px 0px 0px 20px;
+}
