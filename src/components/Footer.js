@@ -17,6 +17,9 @@ const Footer = () => {
     
 	return (
 		<footer className='jh-footer'>
+            <div className='jh-image'>
+                <img className='jh-image' src={imag} alt='succulents in pot'/>
+            </div>
 			<div className='jh-sub'>
                 <div className='jh-footer-elem'>
                 For plant enthusiasts 🌿🌱🌵
@@ -33,9 +36,6 @@ const Footer = () => {
                     
                     <button style={{marginLeft: 20}} onClick={() => alert(inputValue)}>Send</button>
                 </div>
-            </div>
-            <div className='jh-image'>
-                <img className='jh-image' src={imag} alt='succulents in pot'/>
             </div>
 		</footer>
 	)

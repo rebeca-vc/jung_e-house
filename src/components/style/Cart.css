@@ -1,5 +1,42 @@
 .jh-cart{
     color: white;
-    background-color:#EB984E ; 
-    padding: 32px;
+    background-color:#b5b5b5; 
+    width: 20%;
+    text-align: left;
+}
+
+.jh-cart-button{
+    width: 20%;
+    background-color: #acccb3;
+}
+
+.button{
+    background-color: transparent;
+    border-style: none;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button.cart.sm{
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+}
+
+.button.cart{
+    width: 100%;
+}
+
+.button.open{
+    margin: 10px;
+}
+
+.button.cart:hover{
+    background-color: #a8a8a8;
+}
+
+.button.open:hover{
+    background-color: #91ab97;
 }
