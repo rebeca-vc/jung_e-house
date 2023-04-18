@@ -6,3 +6,25 @@
 	flex-wrap: wrap;
 	/* max-width: 800px; */
 }
+.add{
+    background-color: transparent;
+    border-style: none;
+    font-family: Arial;
+    font-size: 15px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.add:hover{
+    background-color: #a8a8a8;
+}
+
+.plant{
+	margin: 10px 10px;
+	border-radius: 20px;
+    border: 2px solid rgb(129, 129, 129);
+}
