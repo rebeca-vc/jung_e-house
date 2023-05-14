@@ -1,6 +1,12 @@
 import monstera from '../assets/monstera.jpg'
 import ficus_lyrata from '../assets/ficus-lyrata.jpg'
 import silver_pothos from '../assets/silver-pothos.jpg'
+import yucca from '../assets/yucca.jpg'
+import olive_tree from '../assets/olive-tree.webp'
+import geranium from '../assets/geranium.webp'
+import basil from '../assets/basil.jpg'
+import aloe from '../assets/aloe.jpg'
+import succulent from '../assets/succulent.webp'
 
 export const plantList = [
 	{
@@ -37,7 +43,7 @@ export const plantList = [
         isBestSale: true,
 		light: 3,
 		water: 1,
-		cover: monstera
+		cover: yucca
 	},
 	{
 		name: 'olive tree',
@@ -46,7 +52,7 @@ export const plantList = [
         isBestSale: false,
 		light: 3,
 		water: 1,
-		cover: monstera
+		cover: olive_tree
 	},
 	{
 		name: 'geranium',
@@ -55,7 +61,7 @@ export const plantList = [
         isBestSale: true,
 		light: 2,
 		water: 2,
-		cover: monstera
+		cover: geranium
 	},
 	{
 		name: 'basil',
@@ -64,7 +70,7 @@ export const plantList = [
         isBestSale: false,
 		light: 2,
 		water: 3,
-		cover: monstera
+		cover: basil
 	},
 	{
 		name: 'aloe',
@@ -73,7 +79,7 @@ export const plantList = [
         isBestSale: false,
 		light: 2,
 		water: 1,
-		cover: monstera
+		cover: aloe
 	},
 	{
 		name: 'succulent',
@@ -82,6 +88,6 @@ export const plantList = [
         isBestSale: false,
 		light: 2,
 		water: 1,
-		cover: monstera
+		cover: succulent
 	}
 ]

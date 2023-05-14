@@ -1,0 +1,33 @@
+.jh-footer {
+	width: 100%;
+	color: black;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-weight: 500;
+}
+
+.jh-footer-elem {
+    margin: 0px 0px 10px 0px;
+}
+
+.jh-sub {
+    width: 300px; 
+    margin: 0px 20px 0px 32px;
+}
+
+.jh-image{
+    height: 300px;
+    border-radius: 20px;
+    margin: 0px 0px 0px 20px;
+}
+
+@media (max-width: 858px) {
+	.jh-footer{
+		align-items: center;
+		flex-direction: column;
+	}
+}
